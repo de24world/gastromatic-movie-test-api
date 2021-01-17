@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 // import reportWebVitals from './reportWebVitals';
+import ApolloPoriver from './ApolloProvider';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ApolloPoriver>
+      <App />
+    </ApolloPoriver>
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -49,10 +49,10 @@ const Register = () => {
           value={values.username}
           onChange={onChange}
         />
+        <Button type="submit" primary>
+          Register
+        </Button>
       </Form>
-      <Button type="submit" primary>
-        Register
-      </Button>
     </div>
   );
 };
